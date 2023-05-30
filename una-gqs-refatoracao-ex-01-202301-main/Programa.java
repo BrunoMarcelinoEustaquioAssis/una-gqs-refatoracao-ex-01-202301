@@ -19,7 +19,9 @@ class Programa {
     //Bruno Marcelino correção "pessoas" para "pessoa"
     validacao.validacaoDasProximasPerguntas(pessoa); 
 
-    validacao.calcularValidacaoFinal(erroTentativass); 
+    
+    //Bruno Marcelino correção "erroTentativass" para "erroTentativas"
+    validacao.calcularValidacaoFinal(erroTentativas); 
     
     //scanner.close();
   }

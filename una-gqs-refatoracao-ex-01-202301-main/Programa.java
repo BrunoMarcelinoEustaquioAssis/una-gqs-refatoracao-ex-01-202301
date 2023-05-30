@@ -23,6 +23,7 @@ class Programa {
     //Bruno Marcelino correção "erroTentativass" para "erroTentativas"
     validacao.calcularValidacaoFinal(erroTentativas); 
     
-    //scanner.close();
+    //Bruno Marcelino correção descomentabndo "// scanner.close();"
+    scanner.close();
   }
 }

@@ -9,17 +9,16 @@ class Programa {
     Validacao validacao = new Validacao();
 
     System.out.println("\tRelatório Auxiliar de Controle de Infecções");
-    //Bruno Marcelino, correção do "SC" para "Scanner" 
+    //Bruno Marcelino, correção do "SC" para "scanner" 
     pessoa.coletaNome(scanner);
     pessoa.coletaIdade(scanner);
 
-    erroTentativas = mensagem.realizaPerguntaVacinaEmDia(pessoa); //Bruno Marcelino correção variavel "pesssoa"
+    erroTentativas = mensagem.realizaPerguntaVacinaEmDia(pesssoa); 
 
-    validacao.validacaoDasProximasPerguntas(pessoa); //Bruno Marcelino correção variavel "pessoas"
+    validacao.validacaoDasProximasPerguntas(pessoas); 
 
-    validacao.calcularValidacaoFinal(erroTentativas); //Bruno Marcelino correção variavel "erroTentativass"
+    validacao.calcularValidacaoFinal(erroTentativass); 
     
-    //Bruno Marcelino correção variavel ""// scanner.close();"
-    scanner.close();
+    //scanner.close();
   }
 }

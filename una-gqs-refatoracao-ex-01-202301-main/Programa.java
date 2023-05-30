@@ -16,7 +16,8 @@ class Programa {
     //Bruno Marcelino correção "pesssoa" para "pessoa"
     erroTentativas = mensagem.realizaPerguntaVacinaEmDia(pessoa); 
 
-    validacao.validacaoDasProximasPerguntas(pessoas); 
+    //Bruno Marcelino correção "pessoas" para "pessoa"
+    validacao.validacaoDasProximasPerguntas(pessoa); 
 
     validacao.calcularValidacaoFinal(erroTentativass); 
     
